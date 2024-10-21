@@ -1,4 +1,6 @@
-# Live Basecalling Script for Guppy on fast5 files (Adaptable fpr pod5 files under dorado basecaller)
+![ONT_gil](https://github.com/user-attachments/assets/40207d42-d75c-43ce-b34b-292de3edacbe)
+
+# Live Basecalling Script for Guppy on fast5 files (Adaptable for pod5 files under dorado basecaller)
 
 This repository contains a Bash script designed for real-time monitoring and basecalling of Nanopore `.fast5` files using Guppy. The script leverages `inotifywait` to observe a specified directory for new `.fast5` files, processes them using Guppy for super accuracy basecalling, and saves the resulting `.fastq` files to a designated output directory.
 
