@@ -20,9 +20,6 @@ This repository contains a Bash script designed for real-time monitoring and bas
 
 ```
 
-```bash
-   sudo apt-get install inotify-tools
-```
 
 **CUDA**: GPU-based basecalling requires an NVIDIA GPU with CUDA drivers installed.
 
