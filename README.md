@@ -7,17 +7,18 @@
 This repository contains a Bash script designed for real-time monitoring and basecalling of Nanopore `.fast5` files using Guppy. The script leverages `inotifywait` to observe a specified directory for new `.fast5` files, processes them using Guppy for super-accuracy basecalling, and saves the resulting `.fastq` files to a designated output directory.
 
 ## Features
-- **Real-Time Monitoring:** Monitors a directory for new `.fast5` files.
-- **Flexible Basecalling:** Automatically performs basecalling using Guppy with configurable flowcell, kit, and model parameters.
-- **CUDA Support:** Utilizes GPU acceleration for faster basecalling.
-- **Batch Organization:** Processes files in batches and organizes output files into a single location.
-- **User-Friendly Interface:** Accepts command-line arguments for easy customization, including a `-h` option to display help.
+- Real-Time Monitoring: Monitors a directory for new `.fast5` files.
+- Flexible Basecalling: Automatically performs basecalling using Guppy with configurable flowcell, kit, and model parameters.
+- CUDA Support: Utilizes GPU acceleration for faster basecalling.
+- Batch Organization: Processes files in batches and organizes output files into a single location.
+- User-Friendly Interface: Accepts command-line arguments for easy customization, including a `-h` option to display help.
 
 
 ## Requirements
-1. **Guppy Basecaller**: Ensure Guppy is installed and accessible on your system.
-2. **inotify-tools**: Required for monitoring file system events. Install with:
+1. Guppy Basecaller: Ensure Guppy is installed and accessible on your system.
+2. inotify-tools: Required for monitoring file system events. Install with:
 
+```
 
 ```bash
    sudo apt-get install inotify-tools
