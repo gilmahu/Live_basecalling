@@ -17,9 +17,11 @@ This repository contains a Bash script designed for real-time monitoring and bas
 ## Requirements
 1. **Guppy Basecaller**: Ensure Guppy is installed and accessible on your system.
 2. **inotify-tools**: Required for monitoring file system events. Install with:
-   ```bash
+
+
+```bash
    sudo apt-get install inotify-tools
-   ```
+```
 
 **CUDA**: GPU-based basecalling requires an NVIDIA GPU with CUDA drivers installed.
 
